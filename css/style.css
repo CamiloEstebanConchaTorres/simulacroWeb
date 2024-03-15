@@ -40,3 +40,35 @@ body {
     color: var(--color-primary);
     transition: color 0.5s ease-in-out;
 }
+
+/* ********************************************header*****************************************************************************+ */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.header-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        text-align: center;
+    }
+    .header-left, .header-right {
+        margin-bottom: 10px;
+        background: white;
+    }
+}
