@@ -185,3 +185,128 @@ body {
     gap: 10px;
     background: white;
 }
+
+/* ***********************************************CENTER********************************************************* */
+
+.container_center {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px; 
+    padding-bottom: 20px;
+}
+
+.mobile-image_center {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* ******************************************CENTER CONTADOR******************************* */
+
+.counter-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.counter-direction_contador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;   
+}
+
+.counter-direction_contador h1{
+    font-size: 16px;
+}
+
+.buttons-container_contador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.round-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 10px;
+    border: 1px solid gray;
+}
+
+.counter-number {
+    font-size: 24px;
+}
+
+.center_texto{
+    padding: 10px;
+    margin: 0 10px;
+    width: 80%;
+}
+
+.center_texto_Dentro{
+    padding: 10px;
+}
+
+.center_texto_Dentro_ABAJO{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.center_texto_Dentro_ABAJO_botones, .center_texto_Dentro_masABAJO_botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 15px;
+}
+
+.center_texto_Dentro_ABAJO_botones p, .center_texto_Dentro_masABAJO_botones p{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.center_texto_Dentro_ABAJO_botones p:hover, .center_texto_Dentro_masABAJO_botones p:hover{
+    background: black;
+    color: white;
+}
+
+.center_texto_Dentro_ABAJO{
+    padding-bottom: 50px;
+}
+
+.center_button{
+    padding-bottom: 80px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.center_button button{
+    background: black;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
